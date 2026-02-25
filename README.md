@@ -95,5 +95,5 @@ service cloud.firestore {
 
 ## 📬 Contact
 
-**Email**: [ajrama_04@outlook.com](mailto:ajrama_04@outlook.com)  
+**Email**: [abdallah.h.ajram@gmail.com](mailto:abdallah.h.ajram@gmail.com)  
 **GitHub**: [Abdallah Ajram](https://github.com/)
