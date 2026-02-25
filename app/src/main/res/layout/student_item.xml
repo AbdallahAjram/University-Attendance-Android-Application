@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/student_card_bg">
+
+    <TextView
+        android:id="@+id/studentName"
+        android:text="👤 Joe Doe"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/studentEmail"
+        android:text="📧 joe.doe@uni.edu"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPresent"
+            android:text="✅ Present"
+            android:textSize="14sp"
+            android:minWidth="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLate"
+            android:text="🕛     Late"
+            android:textSize="14sp"
+            android:minWidth="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAbsent"
+            android:text="❌ Absent"
+            android:textSize="14sp"
+            android:minWidth="0dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
